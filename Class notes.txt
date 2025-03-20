@@ -6,3 +6,21 @@ cd = change folder
 In Windows: cd $Env:PMetrics  (change directory to environment variable PMetrics)
 
 ls = list contents of the folder
+
+
+econo@ssaninre MINGW64 ~
+$ git config --global user.name "Sebastian Sanin"
+$ git config --global user.email "econosanin@hotmail.com"
+$ git config --global init.default branch main
+
+
+git init
+git status 
+git commit -m '.'
+git config --global init.default branch projects
+
+
+# How to add info to cloud
+git remote add origin https://github.com/ssaninre22/metrics2.git
+git branch -M main
+git push -u origin main
